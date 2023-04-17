@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--This is comments
+Author Ltierney
+Date Created: Feb 2023
+Purpose:Pizza Mia
+Modifications:
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"> <!--8-bit character encodingcaple of encoding all possible characters-->
+    <meta name="description" content="Template Page">
+    <meta name="keywords" content="Location">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" type="text/css" href="styles/sample.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3595/3595458.png" type="image/x-icon">
+    <style>
+        footer {
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+
+        footer p {
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body> <!-- Body Tag Start of Body section display on screen -->
+    <header>
+        <!-- inline styling for image to the logo -->
+        <img style="float:left; margin-right:10px;" src="Images/logo.png" alt="logo" width="60" height="50">
+        <h1>Pizza Mia</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About us</a></li>
+                <li> <a href="contact.html">Contact us</a></li>
+                <li id="active"><a href="location.html">Where to find us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="iframe-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2338.6664492693344!2d-9.152339399999997!3d54.11511569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485937910d9b50cf%3A0x1d88e48ad71fa213!2sPizza%20Mia!5e0!3m2!1sen!2sie!4v1681466405925!5m2!1sen!2sie"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <section>
+        <h5>Progress Tracker</h5>
+        <label for="location">Website Completion:</label>
+        <progress id="location" value="100" max="100"></progress> 100%
+    </section>
+    <footer> <!-- Footer grouping the content for the bottom of the screen and will need css to place at the bottom -->
+        <p>Copyright ©2023 Lucy Tierney </p>
+    </footer>
+</body>
+
+</html>

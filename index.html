@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--This is comments
+Author LTierney
+Date Created: Feb 2023
+Purpose: Pizza Mia
+Modifications:
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"> <!--8-bit character encodingcaple of encoding all possible characters-->
+    <meta name="description" content="Template Page">
+    <meta name="keywords" content="Pizza,Menu,AboutUs,ContactUs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizza Mia</title>
+    <link rel="stylesheet" type="text/css" href="styles/sample.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3595/3595458.png" type="image/x-icon">
+    <style>
+        footer {
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+
+        footer p {
+            text-align: center;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body> <!-- Body Tag Start of Body section display on screen -->
+    <header>
+        <!-- inline styling for image to the logo -->
+        <img style="float:left; margin-right:10px;" src="Images/logo.png" alt="logo" width="60" height="50">
+        <h1>Pizza Mia</h1>
+        <nav>
+            <ul>
+                <li id="active"> <a href="home.html">Home</a></li>
+                <li> <a href="about.html">About us</a></li>
+                <li> <a href="contact.html">Contact us</a></li>
+                <li> <a href="location.html">Where to find us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Meal Deals</h2>
+            <img class="column" src="Images/meal_deal_1.png" alt="meal deal">
+            <img class="column" src="Images/meal_deal_2.png" alt="meal deal">
+            <img class="column" src="Images/meal_deal_3.png" alt="meal deal">
+        </section>
+
+        <section>
+            <h2>Special Offers</h2>
+            <img class="column" src="Images/special_offer_1.png" alt="special offer">
+            <img class="column" src="Images/special_offer_2.png" alt="special offer">
+            <img class="column" src="Images/special_offer_3.png" alt="special offer">
+        </section>
+        <section>
+            <h2>MENU</h2>
+            <div id="menu">
+                <div>
+                    <a href="#starters">
+                        <div>Starters</div>
+                    </a>
+                    <a href="#pizza">
+                        <div>Pizza</div>
+                    </a>
+                    <a href="#pasta">
+                        <div>Pasta</div>
+                    </a>
+                </div>
+                <h2 id="starters">STARTERS</h2>
+                <div>
+                    <ul style="list-style-type: square;">
+                        <li><b>Today's Soup</b><span style="color:blue">€5.50</span>
+                            Ask the waiter
+                        </li>
+                        <li><b>Bruschetta</b> <span style="color:blue">€8.50</span>
+                            Bread with pesto, tomatoes, onion, garlic
+                        </li>
+                        <li><b>Garlic bread</b> <span style="color:blue">€9.50</span>
+                            Grilled ciabatta, garlic butter, onions
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h2 id="pizza">PIZZA</h2>
+                <div>
+                    <ul style="list-style-type: square;">
+                        <li><b>Margherita</b> <span style="color:blue">€12.50</span>
+                            Fresh tomatoes, fresh mozzarella, fresh basil
+                        </li>
+                        <li><b>Formaggio</b> <span style="color:blue">€15.50</span>
+                            Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+                        </li>
+                        <li><b>Chicken</b> <span style="color:blue">€17.00</span>
+                            Fresh tomatoes, mozzarella, chicken, onions
+                        </li>
+                        <li><b>Pineapple'o'clock</b> <span style="color:blue">€16.50</span>
+                            Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+                        </li>
+                        <li><b>Meat Town</b> <span style="color:blue">Hot!</span>
+                            <span style="color:blue">€20.00</span>
+                            Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h2 id="pasta">PASTA</h2>
+                <div>
+                    <ol style="list-style-type: square;">
+                        <li><b>Lasagna</b> <span style="color:blue">Popular</span>
+                            <span style="color:blue">€13.50</span>
+                            Special sauce, mozzarella, parmesan, ground beef
+                        </li>
+                        <li><b>Ravioli</b> <span style="color:blue">€14.50</span>
+                            Ravioli filled with cheese
+                        </li>
+                        <li><b>Spaghetti Classica</b> <span style="color:blue">€11.00</span>
+                            Fresh tomatoes, onions, ground beef
+                        </li>
+                    </ol>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <h2><b>Opening Hours</b></h2>
+            <table style="text-align: center;">
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Mon & Tue</td>
+                    <td>CLOSED</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>16.00 - 22.00</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>16.00 - 22.00</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>16.00 - 22.00</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>16.00 - 23.00</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>CLOSED</td>
+                </tr>
+            </table>
+
+        </section>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="videos/pizza_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <section>
+            <h5> Progress Tracker</h5>
+            <label for="home">Website Completion:</label>
+            <progress id="home" value="25" max="100"></progress> 25%
+        </section>
+    </main>
+    <footer> <!-- Footer grouping the content for the bottom of the screen and will need css to place at the bottom -->
+        <p>Copyright ©2023 Lucy Tierney</p>
+    </footer>
+</body>
+
+</html>
